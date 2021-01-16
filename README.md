@@ -20,7 +20,7 @@
 |02		|[ft_server](./ftserver) 			|`DOCKER`		|`DOCKERFILE` `Nginx` `Wordpress` `phpmyadmin` `MySQL`	|:white_check_mark:			|
 |:star2:|									|				|														|							|
 |03		|[libasm](./libasm) 				|`Assmembly`	|`Computer architecture`								|:white_check_mark:			|
-|03		|[minishell](./minushell) 		|`C`			|`OS` `shell` `bash`  									|:white_check_mark:			|
+|03		|[minishell](./minishell) 		|`C`			|`OS` `shell` `bash`  									|:white_check_mark:			|
 |03		|[ft_services](./ft_services) 	|`Kubernetes`	|`DevOps` `MSA` 										|:white_check_mark:			|
 |:star2:|									|				|														|							|
 |04		|Philosophers 						|`C`			|`OS` `Thread` `Mutex` `Semaphore`						|:black_square_button:		|
