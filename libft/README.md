@@ -1,33 +1,33 @@
 # 📚 libft
-@42seoul : (2020.04.15 ~ 2020.05.01)
+@42seoul : (2020.04.15 ~ 2020.05.01)  
+
 ## About
 - 일반적으로 C언에서 자주 사용하는 함수들을 **직접** 구현합니다. (The aim of this project is to code a C library regrouping usual functions that you’ll be allowed to use in all your other projects.)
 
-## Run
-- [Unit Test](https://github.com/alelievr/libft-unit-test) : All Success
-- Benchmark (My functions vs Libc)
-	- 완패..
-
-[![asciicast](https://asciinema.org/a/384736.svg)](https://asciinema.org/a/384736)
-
-
-- test script
-<script id="asciicast-384699" src="https://asciinema.org/a/384699.js" async></script>
+- 구현 목록
+	- [Libc Functions](#📕-Libc-functions-(Standard-C-Library)) : `<ctype.h>`, `<string.h>` `<stdlib.h>`
+	- [Non- Libc Functions](#📗-Additional-functions)
+	- [Linked-list Functions](#📘-Linked-list)
 
 ## Review
 - C에서 include하여 사용하는 `<ctype.h>`, `<string.h>` `<stdlib.h>`의 함수 뿐만 아니라 자주 사용되는 split, join 함수 등 직접 구현하면서 C의 기본 문법과 포인터 연산, 메모리 관리(Heap), Makefile 등 배울 수 있었다.
 - Libc에 이미 구현되어 있는 함수들을 가져다 쓰면 되는데 과제하면서 왜 내가 구현해야할까 고민도 많이 했지만 직접 밑단에서 함수가 이렇게 동작하는구나 생각할 수 있어서 무척 유익했다. GNU의 Libc와 내가 짠 코드 벤치마킹 했는데 처참하게 무너졌다. Libc는 어셈블리로 완벽히 최적화 되어있어 당연한 결과였지만 눈으로 보니 비참하면서 약간 욕심이 생겼다. 하지만 욕심만 갖고 다른 프로젝트를 하자.
 
+## Run
+### Unit Test : All Success
+- `alelievr`님이 만들어주신 코드로 전체적인 유닛테스트를 확인하였다. 모든 코드 이상 없이 libc와 동일하게 동작한다.
+
+![libft_unit_test](https://user-images.githubusercontent.com/57086195/104797846-c8635a80-5804-11eb-888a-09d1d886e229.gif)
+
+
+### Benchmark (My functions vs Libc)
+- 성능차이 : 많게는 50배, 적게는 1.2배 정도 Libc 함수들이 더 빠르게 나왔다.
+- atoi 함수는 거의 동일하게 나온다.
+- 완패
+![libft_benchmark](https://user-images.githubusercontent.com/57086195/104797844-c4cfd380-5804-11eb-9867-77eebb69b155.gif)
+
 ## Function List
-- [Libc Functions](#📕-Libc-functions-(Standard-C-Library)) : `<ctype.h>`, `<string.h>` `<stdlib.h>`
-- [Non- Libc Functions](#📗-Additional-functions)
-- [Linked-list Functions](#📘-Linked-list)
-
-
----
-
-# Function List
-## 📕 Libc functions (Standard C Library)
+### 📕 Libc functions (Standard C Library)
 - `<ctype.h>`, `<string.h>` `<stdlib.h>`의 몇 가지 함수를 구현합니다.
 
 Description : man [function]
@@ -39,7 +39,7 @@ Description : man [function]
 |`<stdlib.h>`| `calloc`, `atoi` | 
 |`<ctype.h>`| `isalpha`, `isdigit`, `isalnum`, `isascii`, `isprint`, `toupper`, `tolower`| 
 
-## 📗 Additional functions
+### 📗 Additional functions
 - libc에 포함되지 않지만 자주 사용하는 함수를 구현합니다.
 - string : 문자열 처리 함수
 - put_fd : 문자열 출력 함수
@@ -57,7 +57,7 @@ Description : man [function]
 | `put_fd` | ft_putendl_fd | Outputs the string ’s’ to the given file descriptor, followed by a newline. |
 | `put_fd` | ft_putnbr_fd | Outputs the integer ’n’ to the given file descriptor. |
 
-## 📘 Linked list
+### 📘 Linked list
 - 링크드 리스트를 구현합니다.
 
 |  Type  | Function | Description |
