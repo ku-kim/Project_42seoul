@@ -9,15 +9,21 @@ ending with a newline, read from a file descriptor.)
 | :---: | :--------: | :-----------: |
 | `file read` | get_next_line(int fd, char **line) | Write a function which returns a line read from a file descriptor, without the newline.  |
 
-- 2019.02.01
-## Run
-
-
-
 ## Review
 - fd 관리와 static variable을 활용하는 방법을 배울 수 있었습니다.
 - python의 read.csv() 함수를 만든다고 했을 때 단순히 "\n" 개행 단위로 행을 나누고 sep(구분자) 단위로 열을 나눌 수 있는데 C에서도 이제 Libft 프로젝트와 Get_next_line 프로젝트 함수를 합치면 쉽게 read.csv() 같은 함수를 만들 수 있다.
 
+## Run
+- Read File
+	1. Iris.csv(붓꽃 데이터)를 "\n"개행 단위로 읽기 -> get_next_line()
+	2. 개행 단위로 읽은 데이터 user_output 으로 저장
+	3. diff user_output ./Iris.csv
+
+- Unit test
+	- 버퍼 사이즈 별로 잘 읽는지 체크
+
+
+---
 
 ## Reference
 - [Test : GNL_lover](https://github.com/charMstr/GNL_lover)
