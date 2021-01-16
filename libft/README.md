@@ -1,4 +1,5 @@
 # 📚 libft
+@42seoul : (2020.04.15 ~ 2020.05.01)
 ## About
 - 일반적으로 C언에서 자주 사용하는 함수들을 **직접** 구현합니다. (The aim of this project is to code a C library regrouping usual functions that you’ll be allowed to use in all your other projects.)
 
@@ -73,12 +74,12 @@ Description : man [function]
 
 ---
 
-### Reference
+## Reference
 - [man : <string.h>](https://man7.org/linux/man-pages/man0/string.h.0p.html)
 - [man : <stdlib.h>](https://man7.org/linux/man-pages/man0/stdlib.h.0p.html)
 - [man : <ctype.h>](https://man7.org/linux/man-pages/man0/ctype.h.0p.html)
 - [Linft Unit Test : Benchmark code](https://github.com/alelievr/libft-unit-test)
 
 
-### Author
+## Author
 [kukim](https://github.com/ku-kim)
