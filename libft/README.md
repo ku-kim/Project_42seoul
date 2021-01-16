@@ -15,7 +15,7 @@
 
 ## Run
 ### Unit Test : All Success
-- `alelievr`님이 만들어주신 코드로 전체적인 유닛테스트를 확인하였다. 모든 코드 이상 없이 libc와 동일하게 동작한다.
+- `alelievr`님이 만든 코드로 전체적인 유닛테스트를 확인하였다. 모든 코드 이상 없이 libc와 동일하게 동작한다.
 
 ![libft_unit_test](https://user-images.githubusercontent.com/57086195/104797846-c8635a80-5804-11eb-888a-09d1d886e229.gif)
 
