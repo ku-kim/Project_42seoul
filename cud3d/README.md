@@ -20,12 +20,15 @@
 
 ## Run
 - Basic Version
+
 ![cub3d_basic](https://user-images.githubusercontent.com/57086195/104799397-25194200-5812-11eb-9c68-26f848ef381f.gif)
 
 - screenshot
+
 ![cub3d_screenshot](https://user-images.githubusercontent.com/57086195/104799400-29455f80-5812-11eb-8b69-e327000a386d.gif)
 
 - 인터스텔라 Version
+
 ![cub3d_bonus](https://user-images.githubusercontent.com/57086195/104799399-277b9c00-5812-11eb-8e29-1a71948232d8.gif)
 
 
