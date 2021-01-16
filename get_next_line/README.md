@@ -1,4 +1,4 @@
-# 📚 Get_next_line
+# 📠 Get_next_line
 @42seoul : (2020.07.01 ~ 2020.07.15)
 
 ## About
