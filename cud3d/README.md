@@ -1,7 +1,7 @@
 # 📚 cub3d
 @42seoul : (2020.09.15 ~ 2020.11.02)
 ## About
-- 이 프로젝트는 90년대 최초의 1인칭 슈팅 게임(`Wolfenstein 3D`)을 직접 만드는 것입니다.(This project is inspired by the world-famous eponymous 90’s game(`Wolfenstein 3D`), which was the first FPS ever)
+- 이 프로젝트는 90년대 최초의 1인칭 슈팅 게임(`Wolfenstein 3D`)을 직접 구현합니다.(This project is inspired by the world-famous eponymous 90’s game(`Wolfenstein 3D`), which was the first FPS ever)
 - `ray casting` 알고리즘을 공부합니다.
 
 - 구현

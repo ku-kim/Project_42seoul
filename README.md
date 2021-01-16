@@ -11,7 +11,7 @@
 |:-:	|:--								|:-:			|:-:													|--:						|
 |		|									|				|														|							|
 |00		|[Libft](./libft) 				|`C`			|`Makefile` `Library` `<stdlib.h>` `<string.h>` `Linked list`|:white_check_mark:	|
-|:star2:|									|				|														| 							|
+|:star2:|								|				|														| 							|
 |01		|[ft_printf](./ft_printf) 		|`C`			|`printf` `Variadic Arguments`							|:white_check_mark:			|
 |01		|[get_next_line](./get_next_line)|`C`				|`read file` `Static Variable`							|:white_check_mark:			|
 |01		|[Netwhat](./Netwhat) 			|				|`Network` `IP` `TCP` `UDP` `HTTP`						|:white_check_mark:			|
@@ -32,3 +32,4 @@
 |:star2:|									|				|														|							|
 |06		|ft_transcendence 					|				|														|:black_square_button:		|
 |:star2:|									|				|														|							|
+
