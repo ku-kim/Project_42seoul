@@ -19,8 +19,7 @@ ending with a newline, read from a file descriptor.)
 	2. 개행 단위로 읽은 데이터 user_output 으로 저장
 	3. diff user_output ./Iris.csv
 
-- Unit test
-	- 버퍼 사이즈 별로 잘 읽는지 체크
+![get_next_line_fileread](https://user-images.githubusercontent.com/57086195/104798401-e41d2f80-5809-11eb-94e1-441b03ccfdd7.gif)
 
 
 ---
