@@ -3,7 +3,7 @@
 - 이 프로젝트는 단순합니다. <stdio.h>의 `printf()` 함수를 직접 구현합니다.(This project is pretty straight forward. You will recode printf)
 
 ## Run
-- Simple Test : Hello World! & %(c, s, p d, i, u, x, X, %)
+- Simple Unit Test : Hello World! & %(c, s, p d, i, u, x, X, %)
 ![ft_printf_simple](https://user-images.githubusercontent.com/57086195/104793652-0487c280-57e7-11eb-93c0-3e68a0daa440.gif)
 
 - All Test : reference 코드를 참고로 테스트 하였습니다.
