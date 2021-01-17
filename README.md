@@ -16,8 +16,8 @@
 |01		|[get_next_line](./get_next_line)|`C`				|`read file` `Static Variable`							|:white_check_mark:			|
 |01		|[Netwhat](./Netwhat) 			|				|`Network` `IP` `TCP` `UDP` `HTTP`						|:white_check_mark:			|
 |:star2:|									|				|														|							|
-|02		|[cub3d]((./cud3d_miniRT)) 		|`C`			|`OS` `Ray Casting` `Wolfenstein 3D` `Game` 					|:white_check_mark:			|
-|02		|[ft_server](./ftserver) 			|`DOCKER`		|`DOCKERFILE` `Nginx` `Wordpress` `phpmyadmin` `MySQL`	|:white_check_mark:			|
+|02		|[cub3d]((./cud3d)) 		|`C`			|`OS` `Ray Casting` `Wolfenstein 3D` `Game` 					|:white_check_mark:			|
+|02		|[ft_server](./ft_server) 			|`Docker`		|`DOCKERFILE` `Nginx` `Wordpress` `phpmyadmin` `MySQL`	|:white_check_mark:			|
 |:star2:|									|				|														|							|
 |03		|[libasm](./libasm) 				|`Assmembly`	|`Computer architecture`								|:white_check_mark:			|
 |03		|[minishell](./minishell) 		|`C`			|`OS` `shell` `bash`  									|:white_check_mark:			|

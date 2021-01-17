@@ -20,16 +20,15 @@
 - [Computer-Achitecture 스터디](https://github.com/Kraken-Addicts/Computer-Achitecture)도 함께 진행했다.
 - CPU, 레지스터, Stack 메모리를 이해하게 되었고 read, write함수를 구현하면서 각각의 시스템콜 번호를 호출하면 커널모드로 변경 되며 sys_open() 커널 함수가 호출되고 함수가 끝나면 다시 사용자 모드로 바뀌고 결과가 리턴된다. 이때 시스템콜이 에러가 발생하면 캐리플래그가 발생되고 rax 레지스터에 errno가 들어있다. 이것을 __error를 호출하여 error를 나타내는 변수에 rax 결과를 저장한 뒤 최종적으로 -1을 리턴하고 종료된다.
 - Level 0 프로젝트 [Libft](https://github.com/ku-kim/Project_42seoul/tree/master/libft)에서 만들었던 ft_strlen과 Libc의 strlen 벤치마크 결과 완패했는데 그 이유가 어셈블리 단에서 최적화 과정을 거쳤기 때문이지 않을까 한다.
-- 어셈블리를 전문적으로 할 것은 아니지만 CPU 수준의 코딩을 해볼 수 있어서 유익했다.
 
 ## Run
 - Assembly Env
 	- nasm compiler
 	- x86_64 macos
 	- intel
-- Unit-test : Libc 함수 - 어셈블리 구현 함수 비교
+- Unit-test : Libc - 어셈블리 구현 함수 비교
 ![libasm](https://user-images.githubusercontent.com/57086195/104812738-9de6c100-5847-11eb-8be1-e458c7862e9d.gif)
-.  
+
 ├── Makefile  
 ├── ft_read.s  
 ├── ft_strcmp.s  
