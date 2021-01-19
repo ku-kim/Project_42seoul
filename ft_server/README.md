@@ -18,6 +18,8 @@
 	- https://localhost/phpmyadmin
 	- wordpress, phpmyadmin은 mysql과 연결
 
+## Review
+- 도커의 기초 개념, 명령어, DOCKERFILE을 활용한 배포, Nginx, mysql, phpmyadmin, wordpress 서버 셋팅을 배울 수 있었다.
 
 ## Run
 1. `DOCKERFILE`, config file 생성
@@ -25,13 +27,10 @@
 3. docker run -it -p80:80 -p443:443 ft_server:kukim
 4. 웹 서비스 시연
 
+---
 
-## Review
-- 도커가 왜 필요한지 알게 되었고
-
-
-### Reference
+## Reference
 
 
-### Author
+## Author
 [kukim](https://github.com/ku-kim)
