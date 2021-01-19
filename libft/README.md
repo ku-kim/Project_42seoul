@@ -24,6 +24,7 @@
 - 성능차이 : 많게는 50배, 적게는 1.2배 정도 Libc 함수들이 더 빠르게 나왔다.
 - atoi 함수는 거의 동일하게 나온다.
 - 완패
+
 ![libft_benchmark](https://user-images.githubusercontent.com/57086195/104797844-c4cfd380-5804-11eb-9867-77eebb69b155.gif)
 
 ## Function List
