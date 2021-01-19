@@ -33,3 +33,5 @@
 |06		|ft_transcendence 					|				|														|:black_square_button:		|
 |:star2:|									|				|														|							|
 
+
+[![HitCount](http://hits.dwyl.com/ku-kim/ku-kim/Project_42seoul.svg)](http://hits.dwyl.com/ku-kim/ku-kim/Project_42seoul)
