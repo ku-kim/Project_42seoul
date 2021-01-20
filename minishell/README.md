@@ -1,4 +1,4 @@
-# 📚 minishell
+# ⌨️ minishell
 `heeheeshell` by [yeha](https://github.com/tomhato) and [kukim](https://github.com/ku-kim)  
 @42seoul : (2020.11.10 ~ 2021.01.03)
 

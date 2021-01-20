@@ -1,4 +1,4 @@
-# 📚 ft_server
+# 🚢 ft_server
 @42seoul : (2020.07.25 ~ 2020.08.08)
 
 ## About
@@ -33,7 +33,8 @@
 ---
 
 ## Reference
-
+- [Docker docs : get-started](https://docs.docker.com/get-started/)
+- [Docker : 101-tutorial](https://www.docker.com/101-tutorial)
 
 ## Author
 [kukim](https://github.com/ku-kim)
