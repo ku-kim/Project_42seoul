@@ -22,7 +22,7 @@
 ![setup](https://user-images.githubusercontent.com/57086195/105048154-92e19a00-5aae-11eb-826c-f0d4657af6ef.gif)
 
 
-#### 2. kubernetes 시연
+#### 2. Show services
 - Deploy : Nginx
 	- redir : http://192.168.99.152 -> https://192.168.99.152
 	- ssh www:kukim@192.168.99.152
