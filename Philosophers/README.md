@@ -12,10 +12,10 @@
 1. Program 1 `philo_one` : Mutex
 	- 철학자는 쓰레드이다.
 	- 원탁에 앉아있고, 양 옆에 포크가 있다.
-2. Program 2 `philo_two` :Semaphore
+2. Program 2 `philo_two` : Semaphore
 	- 철학자는 쓰레드이다.
 	- 원탁에 앉아있고, 테이블 중앙에 포크가 있다.
-3. Program 3 `philo_three` :shared memory
+3. Program 3 `philo_three` : shared memory
 	- 철학자는 프로세스이다.
 	- 원탁에 앉아있고, 테이블 중앙에 포크가 있다.
 
@@ -42,11 +42,23 @@
 - Mutex와 Semaphore에 대한 이론적 개념과 이를 간단한 예제를 통해 구현할 수 있었다.
 
 ## Run
-1. philo_one
+- Test
+	- ./program 5 800 200 200 7 : 7번 다 먹으면 프로그램 종료
+	- ./program 4 410 200 200 : 무한 루프
+	- ./program 2 310 200 100 (10ms 안에 죽는 것 확인)
 
-2. philo_two
+1. philo_one : Mutex version
 
-3. philo_three
+![philo_one](https://user-images.githubusercontent.com/57086195/105130787-01643d80-5b2b-11eb-8ce9-a1f6b5b0f80d.gif)
+
+2. philo_two : Semaphore version
+
+![philo_two](https://user-images.githubusercontent.com/57086195/105130785-00cba700-5b2b-11eb-9fd7-7aedf9ee24b3.gif)
+
+
+3. philo_three : Shared memory version
+
+![philo_three](https://user-images.githubusercontent.com/57086195/105130782-ff01e380-5b2a-11eb-96a2-595089402d80.gif)
 
 ---
 
