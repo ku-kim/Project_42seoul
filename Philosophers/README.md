@@ -1,7 +1,7 @@
 # 📚 Philosophers
 @42seoul : (2021.01.04 ~ 01.20)
 
-## About
+## 📖 About
 - 이 프로젝트는 기본적인 프로세스 스레딩, mutex, semaphore, shared memory을 배웁니다.(In this project, you will learn the basics of threading a process and how to work on the same memory space. You will learn how to make threads. You will discover the mutex, semaphore and shared memory.)
 - C언어를 활용하여 [Dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) 문제를 3가지 방법으로 구현합니다.
 
@@ -35,13 +35,13 @@
 		- 모든 철학자가 2번 먹으면 프로그램 종료 
 	- 철학자는 프로그램에 따라 쓰레드이기도 하고 프로세스이기도 하다.
 
-## Review
+## 📝 Review
 - 쓰레드나 프로세스 사이에 실행 시기를 맞추는 동안(동기화(Synchronization))에 문제가 발생할 수 있다.
 - 예를 들어 A, B, C 쓰레드가 공유하고 있는 `int count`라는 변수를 동시에 수정한다면 결과가 이상하게 나올 것 이다. 또한 두 개의 작업이 서로 상대방의 작업이 끝나길 무한히 기다리거나(deadlock, 교착상태) 우선순위가 낮아서 아예 자원할당을 받지 못하는 경우도 있다(stravation, 기아상태).
 - 이를 해결하기 위해 공유하고 있는 data를 Exclusive Access, 어느 한 스레드가 공유 변수를 사용하는 동안 다른 스레드가 접근하지 못하도록 막는 방법을 공부했다.
 - Mutex와 Semaphore에 대한 이론적 개념과 이를 간단한 예제를 통해 구현할 수 있었다.
 
-## Run
+## 🏁 Run
 - Test
 	- ./program 5 800 200 200 7 : 7번 다 먹으면 프로그램 종료
 	- ./program 4 410 200 200 : 무한 루프
@@ -62,11 +62,11 @@
 
 ---
 
-## Reference
+## 🔗 Reference
 - [wiki : Dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem)
 - [Dining Philosopher Problem Using Semaphores](https://www.geeksforgeeks.org/dining-philosopher-problem-using-semaphores/)
 - [운영체제: 16. 철학자들은 왜 굶어 죽었을까? (철학자들의 저녁식사 문제)](https://youtu.be/YAP0Bv_aQl8)
 - [06.6 기아상태](https://youtu.be/07d7I6GnCZ0)
 
-## Author
+## 🧑🏻‍💻 Author
 [kukim](https://github.com/ku-kim)

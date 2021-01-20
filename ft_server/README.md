@@ -1,7 +1,7 @@
 # 🚢 ft_server
 @42seoul : (2020.07.25 ~ 2020.08.08)
 
-## About
+## 📖 About
 - Docker를 활용하여 하나의 컨테이너에 Nginx, mysql, phpmyadmin, wordpress 서비스를 만드시오.
 - 단, DockerHub를 사용하지 않고 직접 DOCKERFILE을 만듭니다. (OS : debian)
 
@@ -18,7 +18,7 @@
 	- https://localhost/phpmyadmin
 	- wordpress, phpmyadmin은 mysql과 연결
 
-## Review
+## 📝 Review
 - 도커의 기초 개념, 명령어, DOCKERFILE을 활용한 배포, Nginx, mysql, phpmyadmin, wordpress 서버 셋팅을 배울 수 있었다.
 
 ## Run
@@ -32,9 +32,9 @@
 
 ---
 
-## Reference
+## 🔗 Reference
 - [Docker docs : get-started](https://docs.docker.com/get-started/)
 - [Docker : 101-tutorial](https://www.docker.com/101-tutorial)
 
-## Author
+## 🧑🏻‍💻 Author
 [kukim](https://github.com/ku-kim)

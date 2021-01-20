@@ -1,17 +1,17 @@
 # 🎶 ft_services
 @42seoul : (2020.12.15 ~ 2021.01.13)
-## About
+## 📖 About
 - Kubernetes를 활용하여 아래의 아키텍쳐를 구현하시오.
 - Dockerhub를 사용하지 않고 직접 DOCKERFILE을 만듭니다. (OS : alpine)
 
 ![ft_service_draw](https://user-images.githubusercontent.com/57086195/104842939-76f1c300-590b-11eb-9f81-0305626ccb74.png)
 
-## Review
+## 📖 Review
 - kubernetes, 컨테이너 오케스트레이션는 아름답다. 네트워크를 통해서 수 많은 클러스터를 하나의 서버처럼 사용하고, 각각의 쿠버네티스 Object들을 .yaml로 상태 관리하고 유연하게 서비스 확장이 가능하며 배포, 롤백 및 버전 관리에 탁월하며 다양한 볼륨 연결할 수 있다니 대단하다. 구글 크기의 회사가 쿠버네티스로 운영해도 문제가 없다고 하니 구글보다 큰 기업이지 않는 이상 쿠버네티스로 모든 해결되지 않을까 생각이 들었다. 하지만 작은 서비스에겐 오버 스펙이라고 느껴졌다.
 - kubernetes의 개념, 기본적인 Object(pod, deployment, service ...), 외부 접속 설정(Cluster IP, LoadBalancer), 스케일 아웃을 맛보았다. (아! 쿠버네티스가 이런거구나?!)
 - 아쉬운 점 : 실무에서 진행한 프로젝트가 실무에선 어느정도 수준일까 궁금했고, 실제로 어떻게 구현할까 의문이 들었다. 또한 추후에 CI/CD 적용과 kubeflow 서비스도 추가해볼 생각이다.
 
-## Run
+## 🏁 Run
 
 #### 1.Start setup.sh
 - minikube setting
@@ -59,11 +59,11 @@
 
 ---
 
-## Reference
+## 🔗 Reference
 - [kubernetes 공식 Doc Tutorial](https://kubernetes.io//docs/tutorials/)
 - [쿠버네티스 안내서](https://subicura.com/k8s/?fbclid=IwAR2l6yjJC1HhTVltRacVKicVf6arR-XEhDCTgHlqmRXhLRS4Y9PH6CETrjg)
 - [44BITS-초보를 위한 쿠버네티스 안내서](https://youtu.be/SNA1sSNlmy0)
 - [대세는 쿠버네티스 초급~중급](https://www.inflearn.com/course/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EA%B8%B0%EC%B4%88/dashboard)
 
-## Author
+## 🧑🏻‍💻 Author
 [kukim](https://github.com/ku-kim)

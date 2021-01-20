@@ -1,7 +1,7 @@
 # 📚 libft
 @42seoul : (2020.04.15 ~ 2020.05.01)  
 
-## About
+## 📖 About
 - 일반적으로 C언에서 자주 사용하는 함수들을 **직접** 구현합니다. (The aim of this project is to code a C library regrouping usual functions that you’ll be allowed to use in all your other projects.)
 
 - 구현 목록
@@ -9,11 +9,11 @@
 	- [Non- Libc Functions](#📗-Additional-functions)
 	- [Linked-list Functions](#📘-Linked-list)
 
-## Review
+## 📝 Review
 - C에서 include하여 사용하는 `<ctype.h>`, `<string.h>` `<stdlib.h>`의 함수 뿐만 아니라 자주 사용되는 split, join 함수 등 직접 구현하면서 C의 기본 문법과 포인터 연산, 메모리 관리(Heap), Makefile 등 배울 수 있었다.
 - Libc에 이미 구현되어 있는 함수들을 가져다 쓰면 되는데 과제하면서 왜 내가 구현해야할까 고민도 많이 했지만 직접 밑단에서 함수가 이렇게 동작하는구나 생각할 수 있어서 무척 유익했다. GNU의 Libc와 내가 짠 코드 벤치마킹 했는데 처참하게 무너졌다. Libc는 어셈블리로 완벽히 최적화 되어있어 당연한 결과였지만 눈으로 보니 비참하면서 약간 욕심이 생겼다. 하지만 욕심만 갖고 다른 프로젝트를 하자.
 
-## Run
+## 🏁 Run
 ### Unit Test : All Success
 - `alelievr`님이 만든 코드로 전체적인 유닛테스트를 확인하였다. 모든 코드 이상 없이 libc와 동일하게 동작한다.
 
@@ -75,12 +75,12 @@ Description : man [function]
 
 ---
 
-## Reference
+## 🔗 Reference
 - [man : <string.h>](https://man7.org/linux/man-pages/man0/string.h.0p.html)
 - [man : <stdlib.h>](https://man7.org/linux/man-pages/man0/stdlib.h.0p.html)
 - [man : <ctype.h>](https://man7.org/linux/man-pages/man0/ctype.h.0p.html)
 - [Linft Unit Test : Benchmark code](https://github.com/alelievr/libft-unit-test)
 
 
-## Author
+## 🧑🏻‍💻 Author
 [kukim](https://github.com/ku-kim)
