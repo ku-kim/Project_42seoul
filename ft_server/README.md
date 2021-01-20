@@ -13,7 +13,7 @@
 
 - 조건
 	- http://localhost -> https://localhost 리디렉션
-	- localhost:80 -> https://localhost 리딕렉션
+	- Nginx : autoindex
 	- https://localhost/wordpress
 	- https://localhost/phpmyadmin
 	- wordpress, phpmyadmin은 mysql과 연결
@@ -26,6 +26,9 @@
 2. docker build -qt ft_server:kukim ./
 3. docker run -it -p80:80 -p443:443 ft_server:kukim
 4. 웹 서비스 시연
+
+
+![ft_server](https://user-images.githubusercontent.com/57086195/105128515-839e3300-5b26-11eb-8a83-a14b66f941f9.gif)
 
 ---
 
