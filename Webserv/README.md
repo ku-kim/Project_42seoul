@@ -31,12 +31,17 @@
 ## 🏁 Run
 
 - HTTP Method test : GET, HEAD, POST
+
 ![Methods2](https://user-images.githubusercontent.com/57086195/122648307-a54a2780-d163-11eb-9866-eb5be27841a7.gif)
 
+
 - Content negotiation, Redirect
+
 ![nego_redir](https://user-images.githubusercontent.com/57086195/122648272-6c11b780-d163-11eb-875d-99bc4efd59c1.gif)
 
+
 - Authorization, Server pause 503, Siege test
+
 ![auth_503_siege](https://user-images.githubusercontent.com/57086195/122648285-91062a80-d163-11eb-9e77-7976946e4cc2.gif)
 
 
