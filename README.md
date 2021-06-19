@@ -24,11 +24,10 @@
 |03		|[ft_services](./ft_services)	 	|`Kubernetes`	|`DevOps` `MSA` 										|:white_check_mark:			|
 |:star2:|									|				|														|							|
 |04		|[Philosophers](./Philosophers) 	|`C`			|`OS` `Thread` `Mutex` `Semaphore`						|:white_check_mark:			|
-|04		|CPP Modules (9) 					|`CPP`			|`OOP`													|:black_square_button:		|
+|04		|[CPP Modules (8)](./CPPModule08) |`CPP`			|`OOP` `STL`											|:white_check_mark:		|
 |:star2:|									|				|														|							|
-|05		|ft_containers 						|				|														|:black_square_button:		|
-|05		|webserv 							|				|														|:black_square_button:		|
-|05		|ft_irc 							|				|														|:black_square_button:		|
+|05		|[ft_containers](./ft_containers) 	|`CPP`, `STL`	|`Data Architecture`									|:white_check_mark:		|
+|05		|webserv 							|`CPP`, `Socket`|`Network`, `HTTP/1.1`, `Server` 						|:white_check_mark:		|
 |:star2:|									|				|														|							|
 |06		|ft_transcendence 					|				|														|:black_square_button:		|
 |:star2:|									|				|														|							|
