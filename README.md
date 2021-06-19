@@ -27,7 +27,7 @@
 |04		|[CPP Modules (8)](./CPPModule08) |`CPP`			|`OOP` `STL`											|:white_check_mark:		|
 |:star2:|									|				|														|							|
 |05		|[ft_containers](./ft_containers) 	|`CPP`, `STL`	|`Data Architecture`									|:white_check_mark:		|
-|05		|webserv 							|`CPP`, `Socket`|`Network`, `HTTP/1.1`, `Server` 						|:white_check_mark:		|
+|05		|[webserv](./webserv) 				|`CPP`, `Socket`|`Network`, `HTTP/1.1`, `Server` 						|:white_check_mark:		|
 |:star2:|									|				|														|							|
 |06		|ft_transcendence 					|				|														|:black_square_button:		|
 |:star2:|									|				|														|							|

@@ -21,6 +21,7 @@
 ---
 
 ## 🔗 Reference
+- [microsoft/stl](https://github.com/microsoft/STL)
 - [cplusplus-Containers](http://cplusplus.com/reference/stl/)
 - [STL Headers](https://cs.stmarys.ca/~porter/csc/ref/stl/headers.html)
 - [An introduction to C++ Traits](https://accu.org/journals/overload/9/43/frogley_442/)
