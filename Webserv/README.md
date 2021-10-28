@@ -77,10 +77,8 @@
 	- Transfer-Encoding
 	- User-Agent
 	- WWW-Authenticate
-## 🔗 Reference
-- [man : bash](https://linux.die.net/man/1/bash)
-- [gnu Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
 
 ## 🧑🏻‍💻 Author
 [yeha](https://github.com/tomhato)  
+[yeosong](https://github.com/yeosong1)  
 [kukim](https://github.com/ku-kim)
