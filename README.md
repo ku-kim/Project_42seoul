@@ -21,7 +21,7 @@
 |:star2:|									|				|														|							|
 |03		|[libasm](./libasm) 				|`Assmembly`	|`Computer architecture`								|:white_check_mark:			|
 |03		|[minishell](./minishell) 			|`C`			|`OS` `shell` `bash`  									|:white_check_mark:			|
-|03		|[ft_services](./ft_services)	 	|`Kubernetes`	|`DevOps` `MSA` 										|:white_check_mark:			|
+|03		|[ft_services](./ft_services)	 	|`Kubernetes`	|`DevOps`        										|:white_check_mark:			|
 |:star2:|									|				|														|							|
 |04		|[Philosophers](./Philosophers) 	|`C`			|`OS` `Thread` `Mutex` `Semaphore`						|:white_check_mark:			|
 |04		|[CPP Modules (8)](./CPPModule08) |`CPP`			|`OOP` `STL`											|:white_check_mark:		|
